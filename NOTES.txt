@@ -1,0 +1,109 @@
+References
+1. Logic for erasing all widgits in a layout:
+https://gist.github.com/JokerMartini/7fe4f204b6a7912be3ac
+2. Arrow icon for the QCombobox dropdown:
+https://freeicons.io/icon/arrows-and-angles/down-arrow-icon-30308
+
+
+Versions
+V1 - Items are dictionaries {'Title':Bool} where Bool is the checked/unchecked state.
+V2 - Rewritten to have an item class, and all items are an instance of that class. Class instances are deconstructed, written to file, and then recreated for use.
+V3 - Restructured to have two screens through PySide logic. MainWindow houses the titlebar and that is it.
+V4 - Currently in progress.
+
+STATUS
+V3 is .exe on my computer, awaiting updates.
+
+
+### LAYOUT HEIRARCHY V1, V2 ###
+
+MainWindow
+│
+└── container
+    │
+    └── layoutVertical (main layout)
+        │
+        ├── titleBar
+        │     └── titleBarLayout (QHBoxLayout)
+        │            ├── QLabel("To-Do List")
+        │            ├── Stretch
+        │            ├── Minimize Button
+        │            └── Close Button
+        │
+        └── content
+              │
+              └── contentLayout (QVBoxLayout)
+                    │
+                    ├── newTaskLayout (QHBoxLayout)
+                    │      ├── QLineEdit
+                    │      └── Add Task Button
+                    │
+                    ├── taskLayout (QVBoxLayout)
+                    │      │
+                    │      ├── taskRow (QHBoxLayout)
+                    │      │      ├── QRadioButton
+                    │      │      ├── Stretch
+                    │      │      └── Delete Button
+                    │      │
+                    │      ├── taskRow (QHBoxLayout)
+                    │      │      ├── QRadioButton
+                    │      │      ├── Stretch
+                    │      │      └── Delete Button
+                    │      │
+                    │      └── ...
+                    │
+                    └── Stretch
+                    
+
+### LAYOUT HEIRARCHY V3 AND ON (UPDATED FOR TWO SCREENS) ###
+
+MainWindow
+│
+└── container
+    │
+    └── layoutVertical (main layout)
+        │
+        ├── titleBar
+        │     └── titleBarLayout (QHBoxLayout)
+        │            ├── QLabel("To-Do List")
+        │            ├── Stretch
+        │            ├── Minimize Button
+        │            └── Close Button
+        │
+        └── content
+            │
+            │
+            ├── tasksScreen
+            │   │
+            │   └── contentLayout (QVBoxLayout)
+            │           │
+            │           ├── newTaskLayout (QHBoxLayout)
+            │           │      ├── QLineEdit
+            │           │      └── Add Task Button
+            │           │
+            |           ├── taskLayout (QVBoxLayout)
+            │           │      │
+            │           │      ├── taskRow (QHBoxLayout)
+            │           │      │      ├── QRadioButton
+            │           │      │      ├── Stretch
+            │           │      │      └── Delete Button
+            │           │      │
+            │           │      ├── taskRow (QHBoxLayout)
+            │           │      │      ├── QRadioButton
+            │           │      │      ├── Stretch
+            │           │      │      └── Delete Button
+            │           │      │
+            │           │      └── ...
+            │           │
+            │           └── Stretch
+            │
+            └── listsScreen
+                │
+                └── contentLayout2
+                    │
+                    └── Stretch
+
+
+### DATA STORAGE V2 AND ON ###
+Item class instances are broken up so that pieces are broken up by commas (',') and instances are broken up by new lines ('\n').
+
