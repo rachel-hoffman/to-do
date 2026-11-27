@@ -1,6 +1,7 @@
 # To-Do Desktop Application
 Created 8.17.26
-<br>
+
+<br><br>
 
 ## How to Use
 Download the .exe file from the code files of this repository to get started. Be sure to save the application to a permanent location.
