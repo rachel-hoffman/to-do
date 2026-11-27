@@ -1,4 +1,5 @@
 Learn Python,Coding,,True,False
 Hello World Application,Coding,,False,False
 GitHub Upload,Deployment,,True,False
-Share .exe,Deployment,,False,False
+Share executable,Deployment,,False,False
+Create test data, Deployment,,True,False
