@@ -1,13 +1,5 @@
 # To-Do Desktop Application
 <!--Created 8.17.26-->
-
-<br>
-
-<h3>Latest Release (version 3)</h3>
-<p>Download the .exe file from the 'releases' section of this repository to get started. Be sure to save the application to a permanent location.</p>
-<p>Once you save your changes, a file containing your saved data will be created in the same location at the .exe app. Please be aware that this data file is unencrypted CSV format.</p>
-
-<br>
     
 <!-- <ul>
     <li>Python</>
@@ -34,6 +26,14 @@
     <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width = "40px" style="background-color: white;"/> -->
 </div>
 <hr>
+
+<br>
+
+<h3>Latest Release (version 3)</h3>
+<p>Download the .exe file from the 'releases' section of this repository to get started. Be sure to save the application to a permanent location.</p>
+<p>Once you save your changes, a file containing your saved data will be created in the same location at the .exe app. Please be aware that this data file is unencrypted CSV format.</p>
+
+<br>
 
 <h3>Purpose</h3>
 <p>This desktop application helps organize your to-do notes so your desk doesn't turn into a storm of sticky notes.</p>
