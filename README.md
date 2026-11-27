@@ -8,8 +8,9 @@
 </ul> -->
 
 
-<h3>Technologies Used</h3>
+
 <div align = "center"/>
+    <h3>Technologies Used</h3><br>
   <!--Logos are from devicon.com-->
   <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width = "40px"/> -->
   <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" width = "40px"/> -->
