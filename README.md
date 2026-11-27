@@ -33,7 +33,7 @@
 <h3>Latest Release (version 3)</h3>
 <p>Download the .exe file from the 'releases' section of this repository to get started. Be sure to save the application to a permanent location.</p>
 <p>Once you save your changes, a file containing your saved data will be created in the same location at the .exe app. Please be aware that this data file is unencrypted CSV format.</p>
-
+<p>There is also a .txt file in this repository's files if you would like some dummy test data to get started with!</p>
 <br>
 
 <h3>Purpose</h3>
